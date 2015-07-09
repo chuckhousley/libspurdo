@@ -9,7 +9,6 @@ function toSpurdo(string) {
         ["th", "d"],
 
         ["af", "ab"],
-        ["at", "ad"],
         ["ap", "ab"],
         ["ca", "ga"],
         ["ck", "gg"],
@@ -27,14 +26,11 @@ function toSpurdo(string) {
         ["pe", "be"],
         ["up", "ub"],
 
-        ["ic", "ig"],
-
         ["ck", "gg"],
         ["cr", "gr"],
         ["kn", "gn"],
         ["lt", "ld"],
         ["mm", "m"],
-        ["ng", "nk"],
         ["nt", "dn"],
         ["pr", "br"],
         ["ts", "dz"],
@@ -56,6 +52,9 @@ function toSpurdo(string) {
         ["us", "uz"],
         ["ws", "wz"],
         ["ys", "yz"],
+
+        ["ic", "ig"],
+        ["ng", "nk"],
 
         ["alk", "olk"],
         ["ing", "ign"],
