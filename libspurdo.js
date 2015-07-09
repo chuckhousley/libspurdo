@@ -53,11 +53,11 @@ function toSpurdo(string) {
         ["ws", "wz"],
         ["ys", "yz"],
 
-        ["ic", "ig"],
-        ["ng", "nk"],
-
         ["alk", "olk"],
         ["ing", "ign"],
+
+        ["ic", "ig"],
+        ["ng", "nk"],
 
         ["kek", "geg"],
         ["epic", "ebin"],
@@ -76,4 +76,8 @@ function toSpurdo(string) {
 
     // return spurdo'd text
     return string;
+}
+
+if (typeof module != "undefined") {
+    module.exports = toSpurdo
 }
