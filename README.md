@@ -4,9 +4,17 @@ Text to spurdo library :DD
 ## About XDD
 This is a javascript library used for converting regular speech into "spurdo". This has a wide variety of uses in many different types off applications, and removes the need to impliment it again yourself.
 
-## Usage
-You can reference ```libspurdo.js``` however you wish, through ```<script>``` tags, or ```require()``` etc.
+## How to use
+### Reference libspurdo
+Use in a browser:
 
+```<script src="libspurdo.js"></script>```
+
+Use in NodeJS:
+
+```toSpurdo = require("./libspurdo")```
+
+### Use libspurdo
 toSpurdo() takes a string, and returns spurdo-ified text. See the examples below.
 
 ```
