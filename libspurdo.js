@@ -26,6 +26,7 @@ function toSpurdo(string) {
         ["pe", "be"],
         ["pi", "bi"],
         ["up", "ub"],
+        ["va", "ba"],
 
         ["ck", "gg"],
         ["cr", "gr"],
@@ -42,7 +43,7 @@ function toSpurdo(string) {
         ["es", "es"],
         ["fs", "fz"],
         ["gs", "gz"],
-        ["is", "iz"],
+        [" is", " iz"],
         ["ls", "lz"],
         ["ms", "mz"],
         ["ns", "nz"],
