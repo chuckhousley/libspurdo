@@ -1,7 +1,7 @@
 # libspurdo
-Text to spurdo library :DD
+Text to spurdo library
 
-## About XDD
+## About
 This is a javascript library used for converting regular speech into "spurdo". This has a wide variety of uses in many different types off applications, and removes the need to impliment it again yourself.
 
 ## How to use
