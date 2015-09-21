@@ -84,7 +84,7 @@ var replacements = [
 
 function toSpurdo (string) {
 	// Convert to lowercase (TODO: add upercase handling)
-	string = string.toUpperCase();
+	string = string.toLowerCase();
 
 	// apply replacements
 	replacements.forEach(function(filter) {
