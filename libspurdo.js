@@ -13,6 +13,7 @@
 +along with this program.  If not, see <http://www.gnu.org/licenses/>
 +*/
 
+// Return a random ebin face
 var ebinFaces = [":D", ":DD", ":DDD", ":-D", "XD", "XXD", "XDD", "XXDD"];
 function getEbinFace () {
 	return ebinFaces[Math.floor(Math.random() * ebinFaces.length)];
@@ -82,6 +83,9 @@ var replacements = [
 ];
 
 function toSpurdo (string) {
+	// Convert to lowercase (TODO: add upercase handling)
+	string = string.toUpperCase();
+
 	// apply replacements
 	replacements.forEach(function(filter) {
 		var replaceFrom = new RegExp(filter[0], "gm"),
