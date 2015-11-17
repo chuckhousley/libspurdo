@@ -14,72 +14,100 @@
 +*/
 
 // Return a random ebin face
-var ebinFaces = [":D", ":DD", ":DDD", ":-D", "XD", "XXD", "XDD", "XXDD"];
+var ebinFaces = [":D", ":DD", ":DDD", ":-D", "XD", "XXD", "XDD", "XXDD", ":D:D",
+                 "xD", "xDD", "xDDD", ":--D"];
 function getEbinFace () {
 	return ebinFaces[Math.floor(Math.random() * ebinFaces.length)];
 }
 
 // define replacements
 var replacements = [
-	["wh", "w"],
-	["th", "d"],
-
-	["af", "ab"],
-	["ap", "ab"],
-	["ca", "ga"],
-	["ck", "gg"],
-	["co", "go"],
-	["ev", "eb"],
-	["ex", "egz"],
-	["et", "ed"],
-	["iv", "ib"],
-	["it", "id"],
-	["ke", "ge"],
-	["nt", "nd"],
-	["op", "ob"],
-	["ot", "od"],
-	["po", "bo"],
-	["pe", "be"],
-	["pi", "bi"],
-	["up", "ub"],
-	["va", "ba"],
-
-	["ck", "gg"],
-	["cr", "gr"],
-	["kn", "gn"],
-	["lt", "ld"],
-	["mm", "m"],
-	["nt", "dn"],
-	["pr", "br"],
-	["ts", "dz"],
-	["tr", "dr"],
-
-	["bs", "bz"],
-	["ds", "dz"],
-	["es", "es"],
-	["fs", "fz"],
-	["gs", "gz"],
-	[" is", " iz"],
-	["ls", "lz"],
-	["ms", "mz"],
-	["ns", "nz"],
-	["rs", "rz"],
-	["ss", "sz"],
-	["ts", "tz"],
-	["us", "uz"],
-	["ws", "wz"],
-	["ys", "yz"],
-
-	["alk", "olk"],
-	["ing", "ign"],
-
-	["ic", "ig"],
-	["ng", "nk"],
-
-	["kek", "geg"],
+    ["you're", "your"],
+    ["kek", "geg"],
 	["epic", "ebin"],
 	["some", "sum"],
 	["meme", "maymay"],
+    ["pretty", "breddy"],
+    ["good", "gud"],
+    ["else", "els"],
+    ["fuck ", "fug "],
+    ["you ", "yuo "],
+    ["every", "evry"],
+    [" is ", " iz "],
+    
+    ["alk", "olk"],
+	["ing", "ign"],
+    ["cious", "shus"],
+    ["dge", "ge"],
+    ["ight", "ite"],
+    ["ght", "ghd"],
+    ["ist", "isd"],
+    
+	["wh", "w"],
+	["th", "d"],
+    
+	["af", "ab"],
+	["ap", "ab"],
+    
+    ["bs", "bz"],
+    
+	["ca", "ga"],
+	["ck", "gg"],
+	["co", "go"],
+    ["cr", "gr"],
+    
+    ["ds", "bs"],
+    
+    ["et", "ed"],
+	["ev", "eb"],
+    ["ex", "egz"],
+    
+    ["fs", "fz"],
+    
+	["gs", "gz"],
+    
+    ["ic ", "ig "],
+	["iv", "ib"],
+	["it", "id"],
+    
+    ["ka", "ga"],
+	["ke", "ge"],
+    ["kn", "gn"],
+    
+    ["ls", "lz"],
+	["lt", "ld"],
+    
+	["mm", "m"],
+    ["ms", "mz"],
+    
+    ["ng", "nk"],
+    ["ns", "nz"],
+	["nt", "nd"],
+    
+	["op", "ob"],
+	["ot", "od"],
+    
+    ["pl", "bl"],
+	["po", "bo"],
+	["pe", "be"],
+	["pi", "bi"],
+    ["pr", "br"],
+    
+	["rk", "rg"],
+    ["rs", "rd"],
+    
+    ["ss", "s"],
+    
+	["te", "de"],
+    ["ti", "di"],
+    ["ts", "ds"],
+	["tr", "dr"],
+    ["tt", "dd"],
+    
+    ["up", "ub"],
+    
+	["va", "ba"],
+    ["vo", "bo"],	
 ];
 
 function toSpurdo (string) {
