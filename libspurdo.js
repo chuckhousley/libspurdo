@@ -33,6 +33,7 @@ var replacements = [
     ["fuck ", "fug "],
     ["you ", "yuo "],
     ["every", "evry"],
+    ["god", "dog"],
     [" is ", " iz "],
     
     ["alk", "olk"],
@@ -49,8 +50,6 @@ var replacements = [
 	["af", "ab"],
 	["ap", "ab"],
     
-    ["bs", "bz"],
-    
 	["ca", "ga"],
 	["ck", "gg"],
 	["co", "go"],
@@ -60,11 +59,7 @@ var replacements = [
     
     ["et", "ed"],
 	["ev", "eb"],
-    ["ex", "egz"],
-    
-    ["fs", "fz"],
-    
-	["gs", "gz"],
+    ["ex", "egs"],
     
     ["ic ", "ig "],
 	["iv", "ib"],
@@ -73,12 +68,8 @@ var replacements = [
     ["ka", "ga"],
 	["ke", "ge"],
     ["kn", "gn"],
-    
-    ["ls", "lz"],
+
 	["lt", "ld"],
-    
-	["mm", "m"],
-    ["ms", "mz"],
     
     ["ng", "nk"],
     ["ns", "nz"],
@@ -94,7 +85,6 @@ var replacements = [
     ["pr", "br"],
     
 	["rk", "rg"],
-    ["rs", "rd"],
     
     ["ss", "s"],
     
